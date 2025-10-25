@@ -38,7 +38,7 @@ export function Hero() {
                 {t.hero.primaryCta}
               </Button>
             </Link>
-            <a href="tel:+255123456789">
+            <a href="tel:+255745879628">
               <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2 border-white text-white hover:bg-white hover:text-charcoal">
                 <Phone className="h-5 w-5" />
                 {t.hero.secondaryCta}

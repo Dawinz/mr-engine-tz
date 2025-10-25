@@ -159,8 +159,8 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-charcoal mb-1">
                       {language === "en" ? "Phone" : "Simu"}
                     </h3>
-                    <a href="tel:+255123456789" className="text-steel hover:text-orange transition-colors">
-                      +255 123 456 789
+                    <a href="tel:+255745879628" className="text-steel hover:text-orange transition-colors">
+                      +255 745 879 628
                     </a>
                   </div>
                 </div>
@@ -172,12 +172,12 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-charcoal mb-1">WhatsApp</h3>
                     <a
-                      href="https://wa.me/255123456789"
+                      href="https://wa.me/255745879628"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-steel hover:text-orange transition-colors"
                     >
-                      +255 123 456 789
+                      +255 745 879 628
                     </a>
                   </div>
                 </div>
@@ -224,11 +224,20 @@ export default function ContactPage() {
               </CardContent>
             </Card>
 
-            {/* Map Placeholder */}
+            {/* Google Map */}
             <Card>
               <CardContent className="p-0">
-                <div className="aspect-video w-full rounded-lg bg-gray-200 flex items-center justify-center text-steel">
-                  [Map Placeholder]
+                <div className="aspect-video w-full rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps?q=-6.78203326018671,39.25979483910242&hl=en&z=15&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Mr Engine Tz Location"
+                  ></iframe>
                 </div>
               </CardContent>
             </Card>

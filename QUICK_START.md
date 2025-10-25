@@ -23,7 +23,7 @@ Open http://localhost:3000 in your browser.
 ## Step 2: Customize Contact Info (3 minutes)
 
 ### Update Phone Numbers
-Find and replace `+255123456789` with your real number in:
+Find and replace `+255745879628` with your real number in:
 - `components/sections/header.tsx`
 - `components/sections/footer.tsx`
 - `app/contact/page.tsx`

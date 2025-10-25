@@ -75,7 +75,7 @@ export function Header() {
             <Languages className="h-4 w-4" />
             {language.toUpperCase()}
           </button>
-          <a href="tel:+255123456789">
+          <a href="tel:+255745879628">
             <Button size="sm" className="gap-2">
               <Phone className="h-4 w-4" />
               {t.hero.secondaryCta}
@@ -97,7 +97,7 @@ export function Header() {
             </Link>
           ))}
           <div className="pt-4 border-t border-gray-200">
-            <a href="tel:+255123456789" className="block">
+            <a href="tel:+255745879628" className="block">
               <Button size="md" className="w-full gap-2">
                 <Phone className="h-4 w-4" />
                 {t.hero.secondaryCta}

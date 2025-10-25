@@ -104,7 +104,7 @@ export default function ServiceDetailPage() {
                     {t.hero.primaryCta}
                   </Button>
                 </Link>
-                <a href="tel:+255123456789" className="block">
+                <a href="tel:+255745879628" className="block">
                   <Button size="lg" variant="outline" className="w-full gap-2">
                     <Phone className="h-5 w-5" />
                     {t.hero.secondaryCta}

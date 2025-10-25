@@ -68,7 +68,7 @@ If you need to add environment variables (for forms, analytics, etc.):
 2. Or create `.env.local` locally (not committed to git):
 ```
 NEXT_PUBLIC_CONTACT_EMAIL=info@mrenginetz.com
-NEXT_PUBLIC_PHONE=+255123456789
+NEXT_PUBLIC_PHONE=+255745879628
 ```
 
 ## Custom Domain
